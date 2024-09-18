@@ -1,0 +1,88 @@
+body {
+    font-family:Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 150px;
+    background-color:hsl(39, 23%, 25%);
+    box-shadow: 4px;
+}
+
+.resume-container {
+    display: flex;
+    background-color: rgb(149, 165, 164);
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(244, 232, 17, 0.959);
+}
+h1 {
+    text-align: center;
+    font-size: 24px;
+    margin: 10px 0;
+    margin-bottom: 30px;
+    color: rgb(3, 3, 3);
+    text-decoration-style:double;   
+}
+h3 {
+    font-size: 18px;
+    padding: 2%;
+    margin: 20px 0 10px;
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(234, 246, 2, 0.983);
+    margin-top: 5%;
+    margin-bottom: 5%;
+    background-color: rgb(103, 58, 58);
+}
+
+.left-section {
+    background-color: rgba(7, 3, 73, 0.842);
+    color: rgb(252, 252, 252);
+    padding: 20px;
+    width: 35%;
+    text-align: center;
+    border-right: 5px solid rgb(226, 220, 49) ;
+}
+
+.profile-picture {
+    width: 200px;
+    height: 200px;
+    margin-top: 10%;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    border: 6px solid rgb(218, 222, 106);
+    
+}
+
+ul {
+    list-style-type: square;
+    padding: 10;
+    margin: 10px 0;
+}
+
+ul li {
+    padding: 10px;
+    width: 65%;
+}
+.right-section {
+    padding: 20px;
+    width: 65%;
+}
+
+button {
+    display: block;
+    width: 50%;
+    padding: 10px;
+    background-color:rgb(83, 169, 119);
+    color: rgb(19, 18, 18);
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 18px;
+    font-family:Arial, Helvetica, sans-serif;
+    box-shadow: 0 0 15px blue;
+
+}
+
+button:hover {
+    background-color:rgba(255, 253, 253, 0.994)
+}
